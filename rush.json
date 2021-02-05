@@ -457,5 +457,9 @@
     //   "projectFolder": "tools/my-toolchain",
     //   "reviewCategory": "tools"
     // }
+    {
+      "packageName": "games",
+      "projectFolder": "themes/gatsby-games"
+    }
   ]
 }
