@@ -1,8 +1,8 @@
 {
-  "name": "games",
+  "name": "sports",
   "version": "1.0.0",
   "private": true,
-  "description": "Games",
+  "description": "Sports",
   "keywords": [
     "gatsby"
   ],
