@@ -1,5 +1,6 @@
 dependencies:
   '@rush-temp/games': file:projects/games.tgz
+  '@rush-temp/provider': file:projects/provider.tgz
   '@rush-temp/sports': file:projects/sports.tgz
   gatsby: 2.26.1_react-dom@16.13.1+react@16.13.1
   gatsby-plugin-pnpm: 1.2.5_gatsby@2.26.1
@@ -12190,6 +12191,18 @@ packages:
       integrity: sha512-eAKxMYXh5Bt2JglUWmJSntZwh6gVP+c2yJXlSsmH2sjhbYtYYPqk/3zeuAT9g/RSoGsdPBV1uT0B9zQtz2tMiQ==
       tarball: file:projects/games.tgz
     version: 0.0.0
+  file:projects/provider.tgz:
+    dependencies:
+      gatsby: 2.26.1_react-dom@16.13.1+react@16.13.1
+      gatsby-plugin-pnpm: 1.2.5_gatsby@2.26.1
+      react: 16.13.1
+      react-dom: 16.13.1_react@16.13.1
+    dev: false
+    name: '@rush-temp/provider'
+    resolution:
+      integrity: sha512-D4/3ggtB5cMDMvNJsOmxFX3OPCPbUZp2nN3nGM3oKUzAgx6MT8Mfki8CtwEjdcCkbnmr0bRQyIUQXtkiVZoG8Q==
+      tarball: file:projects/provider.tgz
+    version: 0.0.0
   file:projects/sports.tgz:
     dependencies:
       gatsby: 2.26.1_react-dom@16.13.1+react@16.13.1
@@ -12205,6 +12218,7 @@ packages:
 registry: ''
 specifiers:
   '@rush-temp/games': file:./projects/games.tgz
+  '@rush-temp/provider': file:./projects/provider.tgz
   '@rush-temp/sports': file:./projects/sports.tgz
   gatsby: 2.26.1
   gatsby-plugin-pnpm: 1.2.5
