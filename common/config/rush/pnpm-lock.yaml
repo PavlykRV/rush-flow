@@ -1,7 +1,7 @@
 dependencies:
-  '@rush-temp/games': file:projects/games.tgz
+  '@rush-temp/gatsby-theme-games': file:projects/gatsby-theme-games.tgz
+  '@rush-temp/gatsby-theme-sports': file:projects/gatsby-theme-sports.tgz
   '@rush-temp/provider': file:projects/provider.tgz
-  '@rush-temp/sports': file:projects/sports.tgz
   gatsby: 2.26.1_react-dom@16.13.1+react@16.13.1
   gatsby-plugin-pnpm: 1.2.5_gatsby@2.26.1
   react: 16.13.1
@@ -12179,17 +12179,29 @@ packages:
       node: '>=4.0.0'
     resolution:
       integrity: sha512-PgrBqosQLM3gN2xBFIMDLACRTV9c365VqityKKpSTWpwR+U4LAFR3rSVyEoscWlu3EzX9+Y0I86GXUKxpHFl6w==
-  file:projects/games.tgz:
+  file:projects/gatsby-theme-games.tgz:
     dependencies:
       gatsby: 2.26.1_react-dom@16.13.1+react@16.13.1
       gatsby-plugin-pnpm: 1.2.5_gatsby@2.26.1
       react: 16.13.1
       react-dom: 16.13.1_react@16.13.1
     dev: false
-    name: '@rush-temp/games'
+    name: '@rush-temp/gatsby-theme-games'
     resolution:
-      integrity: sha512-eAKxMYXh5Bt2JglUWmJSntZwh6gVP+c2yJXlSsmH2sjhbYtYYPqk/3zeuAT9g/RSoGsdPBV1uT0B9zQtz2tMiQ==
-      tarball: file:projects/games.tgz
+      integrity: sha512-96V3WijEwobvZmvzXMqSrOQ+sfDakc8fGOxnmJVV3+R4d7HCjBANcICqU4LovhzI/37onQtqSGdCIG8br0+Fpg==
+      tarball: file:projects/gatsby-theme-games.tgz
+    version: 0.0.0
+  file:projects/gatsby-theme-sports.tgz:
+    dependencies:
+      gatsby: 2.26.1_react-dom@16.13.1+react@16.13.1
+      gatsby-plugin-pnpm: 1.2.5_gatsby@2.26.1
+      react: 16.13.1
+      react-dom: 16.13.1_react@16.13.1
+    dev: false
+    name: '@rush-temp/gatsby-theme-sports'
+    resolution:
+      integrity: sha512-JdLzwTGOw3AAKBNCls6+IYufQoS76FF81raEbnZ2u/1j+lBCTlGpSQ7N2BhTilhDMUR4EA2O11QLVNV2a23+Qw==
+      tarball: file:projects/gatsby-theme-sports.tgz
     version: 0.0.0
   file:projects/provider.tgz:
     dependencies:
@@ -12200,26 +12212,14 @@ packages:
     dev: false
     name: '@rush-temp/provider'
     resolution:
-      integrity: sha512-D4/3ggtB5cMDMvNJsOmxFX3OPCPbUZp2nN3nGM3oKUzAgx6MT8Mfki8CtwEjdcCkbnmr0bRQyIUQXtkiVZoG8Q==
+      integrity: sha512-clJqgH4ZVOaofjsljjjUCj+nhIzfYke9ZbLWdlacOK8pPsJVwjNtGtDm6HuQ/WpnjIHHsWTPM1M7bhl9YtcnAg==
       tarball: file:projects/provider.tgz
-    version: 0.0.0
-  file:projects/sports.tgz:
-    dependencies:
-      gatsby: 2.26.1_react-dom@16.13.1+react@16.13.1
-      gatsby-plugin-pnpm: 1.2.5_gatsby@2.26.1
-      react: 16.13.1
-      react-dom: 16.13.1_react@16.13.1
-    dev: false
-    name: '@rush-temp/sports'
-    resolution:
-      integrity: sha512-ptScr6DjNKB1bCphGUtvzbsRSFlIjzX2qiZqKcS+Bph/vXIaws/d+Koy0mNUceD7Xv5fZYJTKxmB+nYrY4DGxw==
-      tarball: file:projects/sports.tgz
     version: 0.0.0
 registry: ''
 specifiers:
-  '@rush-temp/games': file:./projects/games.tgz
+  '@rush-temp/gatsby-theme-games': file:./projects/gatsby-theme-games.tgz
+  '@rush-temp/gatsby-theme-sports': file:./projects/gatsby-theme-sports.tgz
   '@rush-temp/provider': file:./projects/provider.tgz
-  '@rush-temp/sports': file:./projects/sports.tgz
   gatsby: 2.26.1
   gatsby-plugin-pnpm: 1.2.5
   react: 16.13.1
