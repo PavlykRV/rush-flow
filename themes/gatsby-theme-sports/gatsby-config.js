@@ -1,3 +1,3 @@
-module.exports = ({basePath = "/"}) => ({
+module.exports = {
   plugins: ["gatsby-plugin-pnpm"],
-});
+};
