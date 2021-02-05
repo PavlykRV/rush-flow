@@ -449,12 +449,12 @@
     //   "reviewCategory": "tools"
     // }
     {
-      "packageName": "games",
-      "projectFolder": "themes/gatsby-games"
+      "packageName": "gatsby-theme-games",
+      "projectFolder": "themes/gatsby-theme-games"
     },
     {
-      "packageName": "sports",
-      "projectFolder": "themes/gatsby-sports"
+      "packageName": "gatsby-theme-sports",
+      "projectFolder": "themes/gatsby-theme-sports"
     },
     {
       "packageName": "provider",

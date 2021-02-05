@@ -19,7 +19,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "gatsby-plugin-pnpm": "1.2.5",
-    "games": "1.0.0",
-    "sports": "1.0.0"
+    "gatsby-theme-games": "1.0.0",
+    "gatsby-theme-sports": "1.0.0"
   }
 }
