@@ -458,7 +458,7 @@
     },
     {
       "packageName": "provider",
-      "projectFolder": "themes/gatsby-provider"
+      "projectFolder": "apps/gatsby-provider"
     }
   ]
 }
