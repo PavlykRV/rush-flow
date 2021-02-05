@@ -4,7 +4,7 @@ module.exports = {
   },
   plugins: [
     { resolve: 'gatsby-plugin-pnpm', options: {} },
-    { resolve: 'games', options: { basePath: '/games' } },
-    { resolve: 'sports', options: { basePath: '/sports' } },
+    { resolve: 'gatsby-theme-games', options: { basePath: '/games' } },
+    { resolve: 'gatsby-theme-sports', options: { basePath: '/sports' } },
   ],
 };
