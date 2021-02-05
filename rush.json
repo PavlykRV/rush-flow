@@ -455,6 +455,10 @@
     {
       "packageName": "sports",
       "projectFolder": "themes/gatsby-sports"
+    },
+    {
+      "packageName": "provider",
+      "projectFolder": "themes/gatsby-provider"
     }
   ]
 }
