@@ -1,3 +1,6 @@
-module.exports = {
-  plugins: ["gatsby-plugin-pnpm"],
-};
+const config = ({ basePath = '/' }) => ({
+  plugins: ['gatsby-plugin-pnpm'],
+  basePath,
+});
+
+module.exports = process.env.THEME_STANDALONE ? config() : config;
