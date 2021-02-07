@@ -1,5 +1,5 @@
 const config = (options) => {
-  console.log('GAMES CONFIG', options);
+
   return options
     ? {
         plugins: [
@@ -8,10 +8,11 @@ const config = (options) => {
             resolve: 'gatsby-plugin-page-creator',
             options: { path: `${__dirname}/src/pages` },
           },
+          'gatsby-plugin-postcss',
         ],
       }
     : {
-        plugins: ['gatsby-plugin-pnpm'],
+        plugins: ['gatsby-plugin-pnpm', 'gatsby-plugin-postcss'],
       };
 };
 
