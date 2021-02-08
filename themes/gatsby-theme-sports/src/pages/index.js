@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import { Button } from 'ui-kit';
 
 // styles
 const pageStyles = {
@@ -149,7 +148,6 @@ const IndexPage = () => {
       />
       <Link to='/'>Home</Link>
       <Link to='/games'>Games</Link>
-      <Button className="bg-green-400">Test button</Button>
     </main>
   );
 };
