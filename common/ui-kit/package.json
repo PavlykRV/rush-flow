@@ -2,7 +2,7 @@
   "name": "ui-kit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 6006",
@@ -29,8 +29,8 @@
     "postcss": "7.0.35",
     "postcss-cli": "7.1.2",
     "postcss-loader": "4.2.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "sass": "1.32.6",
     "style-loader": "2.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@2.0.3"

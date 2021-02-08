@@ -5,7 +5,7 @@ const BASE_BUTTON =
 const CONTAINED_BUTTON = `${BASE_BUTTON} bg-green-400 border border-green-400 text-white`;
 const OUTLINED_BUTTON = `${BASE_BUTTON} border border-green-400 text-green-400`;
 
-export const Button = ({ onClick, label = 'Some label', outlined }) => {
+const Button = ({ onClick, label = 'Some label', outlined }) => {
   return (
     <button
       onClick={onClick}
@@ -15,3 +15,5 @@ export const Button = ({ onClick, label = 'Some label', outlined }) => {
     </button>
   );
 };
+
+export default Button;

@@ -22,6 +22,7 @@
     "gatsby-plugin-page-creator": "2.10.0",
     "gatsby-plugin-postcss": "3.7.0",
     "postcss": "8.2.5",
-    "tailwindcss": "2.0.2"
+    "tailwindcss": "2.0.2",
+    "ui-kit": "~1.0.0"
   }
 }

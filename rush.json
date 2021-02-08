@@ -459,6 +459,10 @@
     {
       "packageName": "provider",
       "projectFolder": "apps/gatsby-provider"
+    },
+    {
+      "packageName": "ui-kit",
+      "projectFolder": "common/ui-kit"
     }
   ]
 }
