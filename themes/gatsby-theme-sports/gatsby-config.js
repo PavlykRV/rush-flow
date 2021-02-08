@@ -8,11 +8,12 @@ const config = (options) => {
             resolve: 'gatsby-plugin-page-creator',
             options: { path: `${__dirname}/src/pages` },
           },
+          'gatsby-plugin-sass',
           'gatsby-plugin-postcss',
         ],
       }
     : {
-        plugins: ['gatsby-plugin-pnpm', 'gatsby-plugin-postcss'],
+        plugins: ['gatsby-plugin-pnpm', 'gatsby-plugin-sass', 'gatsby-plugin-postcss'],
       };
 };
 

@@ -24,6 +24,8 @@
     "gatsby-theme-sports": "1.0.0",
     "gatsby-plugin-page-creator": "2.10.0",
     "gatsby-plugin-postcss": "3.7.0",
-    "postcss": "8.2.5"
+    "postcss": "8.2.5",
+    "gatsby-plugin-sass": "3.2.0",
+    "sass": "1.32.6"
   }
 }

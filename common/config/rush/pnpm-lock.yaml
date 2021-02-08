@@ -7,9 +7,11 @@ dependencies:
   gatsby-plugin-page-creator: 2.10.0_gatsby@2.26.1
   gatsby-plugin-pnpm: 1.2.5_gatsby@2.26.1
   gatsby-plugin-postcss: 3.7.0_gatsby@2.26.1+postcss@8.2.5
+  gatsby-plugin-sass: 3.2.0_gatsby@2.26.1+sass@1.32.6
   postcss: 8.2.5
   react: 16.13.1
   react-dom: 16.13.1_react@16.13.1
+  sass: 1.32.6
 lockfileVersion: 5.2
 packages:
   /@ardatan/aggregate-error/0.0.6:
@@ -5552,6 +5554,20 @@ packages:
       postcss: ^8.0.5
     resolution:
       integrity: sha512-LMIzWuXfpn8q5EZoPbdEfvhMZlpbLN8uGwW8xTV4R4eP1NVyw+Bp/JxbWsujglNu9ezVwxxv5TsCjcdsKBHMyw==
+  /gatsby-plugin-sass/3.2.0_gatsby@2.26.1+sass@1.32.6:
+    dependencies:
+      '@babel/runtime': 7.12.13
+      gatsby: 2.26.1_react-dom@16.13.1+react@16.13.1
+      sass: 1.32.6
+      sass-loader: 10.1.1_sass@1.32.6
+    dev: false
+    engines:
+      node: '>=10.13.0'
+    peerDependencies:
+      gatsby: ^2.0.0
+      sass: ^1.30.0
+    resolution:
+      integrity: sha512-YlQX1Kn1wGcKCgyS8OfD0/W16XIRKvE/5wg6HRnUhJV03MNTB/41eRDsgGe0zLb3jb/aw1bH7leWcBVy0RoClA==
   /gatsby-plugin-typescript/2.12.0_gatsby@2.26.1:
     dependencies:
       '@babel/core': 7.12.13
@@ -10394,6 +10410,40 @@ packages:
     dev: false
     resolution:
       integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+  /sass-loader/10.1.1_sass@1.32.6:
+    dependencies:
+      klona: 2.0.4
+      loader-utils: 2.0.0
+      neo-async: 2.6.2
+      sass: 1.32.6
+      schema-utils: 3.0.0
+      semver: 7.3.4
+    dev: false
+    engines:
+      node: '>= 10.13.0'
+    peerDependencies:
+      fibers: '>= 3.1.0'
+      node-sass: ^4.0.0 || ^5.0.0
+      sass: ^1.3.0
+      webpack: ^4.36.0 || ^5.0.0
+    peerDependenciesMeta:
+      fibers:
+        optional: true
+      node-sass:
+        optional: true
+      sass:
+        optional: true
+    resolution:
+      integrity: sha512-W6gVDXAd5hR/WHsPicvZdjAWHBcEJ44UahgxcIE196fW2ong0ZHMPO1kZuI5q0VlvMQZh32gpv69PLWQm70qrw==
+  /sass/1.32.6:
+    dependencies:
+      chokidar: 3.5.1
+    dev: false
+    engines:
+      node: '>=8.9.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-1bcDHDcSqeFtMr0JXI3xc/CXX6c4p0wHHivJdru8W7waM7a1WjKMm4m/Z5sY7CbVw4Whi2Chpcw6DFfSWwGLzQ==
   /sax/1.2.4:
     dev: false
     resolution:
@@ -12495,14 +12545,16 @@ packages:
       gatsby-plugin-page-creator: 2.10.0_gatsby@2.26.1
       gatsby-plugin-pnpm: 1.2.5_gatsby@2.26.1
       gatsby-plugin-postcss: 3.7.0_gatsby@2.26.1+postcss@8.2.5
+      gatsby-plugin-sass: 3.2.0_gatsby@2.26.1+sass@1.32.6
       postcss: 8.2.5
       react: 16.13.1
       react-dom: 16.13.1_react@16.13.1
+      sass: 1.32.6
       tailwindcss: 2.0.2_132a6068366276bc6a71795f98f5a160
     dev: false
     name: '@rush-temp/gatsby-theme-games'
     resolution:
-      integrity: sha512-/M2KSeraYWl6YEr8Rd5OroCk0ay5R6odTQ3BGNxbJofZB1gKlTjg8/epLIbOVisi3XwKosQSVy3RO88hU+/e5w==
+      integrity: sha512-0pDnSk/01f2Xb5+82UihfMRY7txJwoBJK+EU1InUG5+vyhgNkGbVf9sFzZVc9oS1gzCcRJplEMrB9ohi3bA39Q==
       tarball: file:projects/gatsby-theme-games.tgz
     version: 0.0.0
   file:projects/gatsby-theme-sports.tgz:
@@ -12512,14 +12564,16 @@ packages:
       gatsby-plugin-page-creator: 2.10.0_gatsby@2.26.1
       gatsby-plugin-pnpm: 1.2.5_gatsby@2.26.1
       gatsby-plugin-postcss: 3.7.0_gatsby@2.26.1+postcss@8.2.5
+      gatsby-plugin-sass: 3.2.0_gatsby@2.26.1+sass@1.32.6
       postcss: 8.2.5
       react: 16.13.1
       react-dom: 16.13.1_react@16.13.1
+      sass: 1.32.6
       tailwindcss: 2.0.2_132a6068366276bc6a71795f98f5a160
     dev: false
     name: '@rush-temp/gatsby-theme-sports'
     resolution:
-      integrity: sha512-pvk3QcXqgSNdbnDA4Z/NKo2N5Q181A39E0rhSIn22trOz+M9Ax8AxZp/NqqIlY/MXwD4hhrEuJSXkQQMJLHI1g==
+      integrity: sha512-SZXUtHXAUMJFREQjVyz84HQgvOtd6zgPVGIpoANODpFiSNnzpdJTt7usp0K7732JzgQ3zYy3OJ0ozqOeTlOgWA==
       tarball: file:projects/gatsby-theme-sports.tgz
     version: 0.0.0
   file:projects/provider.tgz:
@@ -12529,14 +12583,16 @@ packages:
       gatsby-plugin-page-creator: 2.10.0_gatsby@2.26.1
       gatsby-plugin-pnpm: 1.2.5_gatsby@2.26.1
       gatsby-plugin-postcss: 3.7.0_gatsby@2.26.1+postcss@8.2.5
+      gatsby-plugin-sass: 3.2.0_gatsby@2.26.1+sass@1.32.6
       postcss: 8.2.5
       react: 16.13.1
       react-dom: 16.13.1_react@16.13.1
+      sass: 1.32.6
       tailwindcss: 2.0.2_132a6068366276bc6a71795f98f5a160
     dev: false
     name: '@rush-temp/provider'
     resolution:
-      integrity: sha512-rpcnoEishlznDkgUoULcqQh9h7qRFyrnr5gisWrmY1QcZN3hUjZ6ekVgQkasYyobcFqJZmDie69cJPbod2eLng==
+      integrity: sha512-HODVCbQxMAgy0kViI1th+zmrEUQ/P/BJs6hZR2Wvv1/PXHZOmaomHgYwVihzEaPaR+KMxGGTuUeNu9a609TIxQ==
       tarball: file:projects/provider.tgz
     version: 0.0.0
 registry: ''
@@ -12549,6 +12605,8 @@ specifiers:
   gatsby-plugin-page-creator: 2.10.0
   gatsby-plugin-pnpm: 1.2.5
   gatsby-plugin-postcss: 3.7.0
+  gatsby-plugin-sass: 3.2.0
   postcss: 8.2.5
   react: 16.13.1
   react-dom: 16.13.1
+  sass: 1.32.6
